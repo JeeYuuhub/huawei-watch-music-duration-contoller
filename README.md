@@ -39,7 +39,7 @@
 
 · 顶部文字区：上行歌名（过长自动滚动跑马灯），下行作者名
 
- ![整体预览](./assets/watch-preview.png)
+![整体预览](./assets/watch-preview.png)
 
 整体预览（深色背景展示）
 
@@ -143,13 +143,11 @@
 
 七、交付文件
 
-文件	说明
+文件说明
 
-watch-music.html	可交互表盘界面（双击即可运行）
+watch-music.html	可交互表盘界面（浏览器打开）
 
 output/watch-face-466.png	466×466 透明圆形贴图（可直接用作表盘）
-
-output/watch-face-932.png	932×932 高分辨率版本
 
 output/watch-preview.png / watch-seek-states.png / watch-playlist.png	预览与状态截图
 
