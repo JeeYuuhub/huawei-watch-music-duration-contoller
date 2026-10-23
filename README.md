@@ -4,7 +4,7 @@
 
 单文件 HTML/CSS/JS 实现 · 466×466 圆形屏幕 · 鸿蒙扁平化风格
 
-![显示区](./watch-face-466.png)
+![显示区](./assets/watch-face-466.png)
 
 表盘渲染（466×466，透明背景，可直接用作贴图）
 
@@ -39,13 +39,13 @@
 
 · 顶部文字区：上行歌名（过长自动滚动跑马灯），下行作者名
 
- ![整体预览](./watch-preview.png)
+ ![整体预览](./assets/watch-preview.png)
 
 整体预览（深色背景展示）
 
 ◆ 状态对照
 
-![2 ways to change music duration](./watch-seek-states.png)
+![2 ways to change music duration](./assets/watch-seek-states.png)
 
 三种状态：空闲 / 表冠调进度 / 手指拖拽调进度
 
@@ -57,7 +57,7 @@
 
 ◆ 双模式进度调节
 
-![改进度的方法](./duration-change-method.png)
+![改进度的方法](./assets/duration-change-method.png)
 
 调节过程中，真实进度弧保持白色细线持续走播，红色预览弧独立显示目标位置，提交时预览弧与实际弧以 280ms 缓动对齐，形成「回弹」手感。
 
@@ -71,7 +71,7 @@
 
 · 循环模式：单曲循环 / 列表循环 / 单曲一次（点击循环图标切换，Toast 提示）
 
-![播放列表（虽然与实际华为的设计方法不同，但也挺好用的）](./watch-import-menu.png)
+![播放列表（虽然与实际华为的设计方法不同，但也挺好用的）](./assets/watch-import-menu.png)
 
 播放列表（内置 16 首 Dawn FM）
 
@@ -85,7 +85,7 @@
 
 · 已挂载 Blob 源的曲目不会再误弹兜底面板（防重入保护）
  
- ![AI自己搞得一个玩意，估计用不上](./watch-help-panel.png)
+ ![AI自己搞得一个玩意，估计用不上](./assets/watch-help-panel.png)
 
 兜底面板：选择 Dawn FM 文件夹
 
